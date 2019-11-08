@@ -31,7 +31,27 @@ class LoginViewController: UIViewController {
     
     @IBAction func loginBtnTapped(_ sender: Any) {
         
-    
+    switch validateLoginCredentials {
+    case .valid:
+        showAlert(withMessage: "Login Successfull",viewController: self,okCall:{
+            self.moveToCustomersScreen()
+        })
+        
+        
+        case .invalid(let error):
+                 showAlert(withMessage: error,viewController: self)
+             }
+         }
+        
+         func moveToCustomersScreen(){
+                if let billDetailsVC = self.storyboard?.instantiateViewController(identifier: "CustomerListTableViewController") as? CustomerListTableViewController{
+                     self.navigationController?.pushViewController(billDetailsVC, animated: true)
+                 }
+             }
+         }
+         
+
+
     }
     
 

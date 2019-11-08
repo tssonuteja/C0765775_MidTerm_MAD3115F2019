@@ -13,6 +13,7 @@
 		E95A23D223760AC800F7B9B6 /* AddNewCustomersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23D123760AC800F7B9B6 /* AddNewCustomersViewController.swift */; };
 		E95A23D523760FB900F7B9B6 /* output-onlinejpgtools.png in Resources */ = {isa = PBXBuildFile; fileRef = E95A23D423760FB900F7B9B6 /* output-onlinejpgtools.png */; };
 		E95A23D823762CA300F7B9B6 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23D723762CA300F7B9B6 /* String+Validation.swift */; };
+		E95A23DA23762D1800F7B9B6 /* ATErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23D923762D1800F7B9B6 /* ATErrorMessage.swift */; };
 		E9D2A7422375C4AD00BAC439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A7412375C4AD00BAC439 /* AppDelegate.swift */; };
 		E9D2A7442375C4AD00BAC439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A7432375C4AD00BAC439 /* SceneDelegate.swift */; };
 		E9D2A7462375C4AD00BAC439 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A7452375C4AD00BAC439 /* LoginViewController.swift */; };
@@ -28,6 +29,7 @@
 		E95A23D123760AC800F7B9B6 /* AddNewCustomersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCustomersViewController.swift; sourceTree = "<group>"; };
 		E95A23D423760FB900F7B9B6 /* output-onlinejpgtools.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "output-onlinejpgtools.png"; sourceTree = "<group>"; };
 		E95A23D723762CA300F7B9B6 /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
+		E95A23D923762D1800F7B9B6 /* ATErrorMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATErrorMessage.swift; sourceTree = "<group>"; };
 		E9D2A73E2375C4AD00BAC439 /* C0765775_MidTerm_MAD3115F2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C0765775_MidTerm_MAD3115F2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D2A7412375C4AD00BAC439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9D2A7432375C4AD00BAC439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 		E95A23D623762C7E00F7B9B6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E95A23D923762D1800F7B9B6 /* ATErrorMessage.swift */,
 				E95A23D723762CA300F7B9B6 /* String+Validation.swift */,
 			);
 			path = Extensions;
@@ -177,6 +180,7 @@
 				E95A23CE237603FB00F7B9B6 /* ShowBillDetailsViewController.swift in Sources */,
 				E9D2A7462375C4AD00BAC439 /* LoginViewController.swift in Sources */,
 				E95A23CC2375EA4C00F7B9B6 /* CustomerListTableViewController.swift in Sources */,
+				E95A23DA23762D1800F7B9B6 /* ATErrorMessage.swift in Sources */,
 				E9D2A7422375C4AD00BAC439 /* AppDelegate.swift in Sources */,
 				E95A23D02376072300F7B9B6 /* AddNewBillViewController.swift in Sources */,
 				E9D2A7442375C4AD00BAC439 /* SceneDelegate.swift in Sources */,
