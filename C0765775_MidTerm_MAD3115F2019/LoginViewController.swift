@@ -50,10 +50,38 @@ class LoginViewController: UIViewController {
              }
          }
          
-
-
+extension LoginViewController {
+var validateLoginCredentials:UserValidationState {
+    if emailTextField.text.isBlank {
+        return .invalid(ATErrorMessage.Email.emptyNew)
     }
+    else if !emailTextField.text!.isEmail {
+        return .invalid(ATErrorMessage.Email.invalid)
+    }
+    else if passwordTextField.text.isBlank {
+        return .invalid(ATErrorMessage.Password.newEmpty)
+    }
+    return .valid
+}
+
+
+
+
     
+extension LoginViewController {
+var validateLoginCredentials:UserValidationState {
+    if emailTextField.text.isBlank {
+        return .invalid(ATErrorMessage.Email.emptyNew)
+    }
+    else if !emailTextField.text!.isEmail {
+        return .invalid(ATErrorMessage.Email.invalid)
+    }
+    else if passwordTextField.text.isBlank {
+        return .invalid(ATErrorMessage.Password.newEmpty)
+    }
+    return .valid
+}
+
 
 }
 
