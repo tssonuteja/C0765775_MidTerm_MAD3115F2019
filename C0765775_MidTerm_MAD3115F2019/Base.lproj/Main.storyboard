@@ -274,5 +274,36 @@
             </objects>
             <point key="canvasLocation" x="1386.9565217391305" y="-569.19642857142856"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="VPZ-Ws-vgS">
+            <objects>
+                <viewController id="NLy-gA-A6B" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m43-4J-C4A">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oto-H9-HfS">
+                                <rect key="frame" x="20" y="103" width="374" height="759"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1fF-Cl-4qb">
+                                <rect key="frame" x="0.0" y="59" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Add New Bill" id="jCr-Dm-3Py">
+                                        <barButtonItem key="rightBarButtonItem" title="Save" id="Ijo-Bm-Hh7"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="MNK-fa-FC1"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EQL-Fm-NOc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2057.971014492754" y="-569.19642857142856"/>
+        </scene>
     </scenes>
 </document>
