@@ -97,5 +97,29 @@
             </objects>
             <point key="canvasLocation" x="747.82608695652175" y="117.85714285714285"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="jcx-bF-pF4">
+            <objects>
+                <viewController id="Vhm-it-PI5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Yb-F4-kND">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jnr-gh-3GI">
+                                <rect key="frame" x="-9" y="56" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Bill Details" id="lAJ-5Q-DMu"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="btD-Po-bO7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="33e-7R-7cR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1387" y="-569"/>
+        </scene>
     </scenes>
 </document>
