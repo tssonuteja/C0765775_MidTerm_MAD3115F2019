@@ -26,7 +26,14 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    
+    
+    @IBAction func loginBtnTapped(_ sender: Any) {
+        
+        
+    }
+    
 
 }
 

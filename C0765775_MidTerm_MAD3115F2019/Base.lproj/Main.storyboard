@@ -32,7 +32,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Sign in" id="Sd2-h4-N8s">
-                                        <barButtonItem key="rightBarButtonItem" title="Log in" id="U8s-Ve-tcL"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Log in" id="U8s-Ve-tcL">
+                                            <connections>
+                                                <action selector="loginBtnTapped:" destination="BYZ-38-t0r" id="rNd-yX-92d"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
