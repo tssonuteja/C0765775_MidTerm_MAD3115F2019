@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E95A23CC2375EA4C00F7B9B6 /* CustomerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23CB2375EA4C00F7B9B6 /* CustomerListTableViewController.swift */; };
+		E95A23CE237603FB00F7B9B6 /* ShowBillDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23CD237603FB00F7B9B6 /* ShowBillDetailsViewController.swift */; };
 		E9D2A7422375C4AD00BAC439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A7412375C4AD00BAC439 /* AppDelegate.swift */; };
 		E9D2A7442375C4AD00BAC439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A7432375C4AD00BAC439 /* SceneDelegate.swift */; };
 		E9D2A7462375C4AD00BAC439 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A7452375C4AD00BAC439 /* LoginViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		E95A23CB2375EA4C00F7B9B6 /* CustomerListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListTableViewController.swift; sourceTree = "<group>"; };
+		E95A23CD237603FB00F7B9B6 /* ShowBillDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowBillDetailsViewController.swift; sourceTree = "<group>"; };
 		E9D2A73E2375C4AD00BAC439 /* C0765775_MidTerm_MAD3115F2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C0765775_MidTerm_MAD3115F2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D2A7412375C4AD00BAC439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9D2A7432375C4AD00BAC439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				E9D2A74C2375C4AD00BAC439 /* LaunchScreen.storyboard */,
 				E9D2A74F2375C4AD00BAC439 /* Info.plist */,
 				E95A23CB2375EA4C00F7B9B6 /* CustomerListTableViewController.swift */,
+				E95A23CD237603FB00F7B9B6 /* ShowBillDetailsViewController.swift */,
 			);
 			path = C0765775_MidTerm_MAD3115F2019;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95A23CE237603FB00F7B9B6 /* ShowBillDetailsViewController.swift in Sources */,
 				E9D2A7462375C4AD00BAC439 /* LoginViewController.swift in Sources */,
 				E95A23CC2375EA4C00F7B9B6 /* CustomerListTableViewController.swift in Sources */,
 				E9D2A7422375C4AD00BAC439 /* AppDelegate.swift in Sources */,
