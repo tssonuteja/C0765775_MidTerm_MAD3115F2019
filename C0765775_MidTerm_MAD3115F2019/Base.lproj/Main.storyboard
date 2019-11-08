@@ -69,7 +69,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Customers" id="KNd-YV-TC4">
-                                        <barButtonItem key="rightBarButtonItem" title="Add customers" id="INt-1E-bfJ"/>
+                                        <barButtonItem key="rightBarButtonItem" title="New customers" id="INt-1E-bfJ"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -104,13 +104,27 @@
                     <view key="view" contentMode="scaleToFill" id="AgL-59-M4K">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SNW-35-lYt">
+                                <rect key="frame" x="20" y="106" width="374" height="756"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L76-KM-M3M">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="New Customer" id="lQp-Tn-BwZ"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Yhq-GP-f0g"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="miW-yJ-DAW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1465" y="118"/>
+            <point key="canvasLocation" x="1465.217391304348" y="117.85714285714285"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jcx-bF-pF4">
