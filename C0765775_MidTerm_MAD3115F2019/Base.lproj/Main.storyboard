@@ -68,7 +68,9 @@
                                 <rect key="frame" x="0.0" y="57" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Customers" id="KNd-YV-TC4"/>
+                                    <navigationItem title="Customers" id="KNd-YV-TC4">
+                                        <barButtonItem key="rightBarButtonItem" title="Add customers" id="INt-1E-bfJ"/>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                         </subviews>
