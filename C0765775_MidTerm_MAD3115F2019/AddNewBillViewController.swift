@@ -15,21 +15,56 @@ protocol AddNewBillViewControllerDelegate:NSObject {
 
 class AddNewBillViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+   
+        @IBOutlet weak var enterBillIDTextField: UITextField!
+        @IBOutlet weak var enterAmountTextField: UITextField!
+        @IBOutlet weak var enterBillDateTextField: UITextField!
+        @IBOutlet weak var enterBillTypeTextField: UITextField!
+        var pickerView = UIPickerView()
+        var datePicker = UIDatePicker()
+        let toolBar = UIToolbar()
+        let billTypesArray = ["Hydro","Internet","Mobile"]
+      weak var delegate:AddNewBillViewControllerDelegate?
+        var billCopyObj:Bill?
+        
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            setupToolBar()
+            setupPicker()
+            setupTextFields()
+        }
+        
+        func setupPicker(){
+            pickerView.delegate = self
+            enterBillTypeTextField.inputView = pickerView
+            enterBillTypeTextField.inputAccessoryView = toolBar
+        }
+        
+        func setupToolBar(){
+            datePicker.datePickerMode = .date
+            datePicker.addTarget(self, action: #selector(datePickerValueChanged(_:)), for: .valueChanged)
+            toolBar.barStyle = UIBarStyle.default
+            toolBar.isTranslucent = true
+            toolBar.tintColor = UIColor.black
+            toolBar.sizeToFit()
+            let doneButton = UIBarButtonItem(title: "Done", style: .done, target: self, action: #selector(doneBtnAction))
+            let space = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: self, action: nil)
+            let cancelButton =   UIBarButtonItem(title: "Cancel", style: .plain, target: self, action: #selector(cancelBtnAction))
+            toolBar.setItems([cancelButton, space,doneButton], animated: false)
+            toolBar.isUserInteractionEnabled = true
+            toolBar.sizeToFit()
+        }
+        
+        @objc func datePickerValueChanged(_ date:UIDatePicker){
+            enterBillDateTextField.text = datePicker.date.dateformatter()
+        }
+        
+        func setupTextFields(){
+            enterBillDateTextField.inputAccessoryView = toolBar
+            enterBillDateTextField.inputView = datePicker
+        }
+        
+        
+       
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}
