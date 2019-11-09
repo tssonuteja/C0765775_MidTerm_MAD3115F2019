@@ -25,6 +25,7 @@
 		E95A23EE23764EAB00F7B9B6 /* IDisplay copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23ED23764EAB00F7B9B6 /* IDisplay copy.swift */; };
 		E95A23F023764EBC00F7B9B6 /* Hydro copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23EF23764EBC00F7B9B6 /* Hydro copy.swift */; };
 		E95A23F223764EC600F7B9B6 /* MinuteExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23F123764EC600F7B9B6 /* MinuteExt.swift */; };
+		E95A23F4237650CD00F7B9B6 /* BillDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23F3237650CD00F7B9B6 /* BillDetailsTableViewCell.swift */; };
 		E9D2A7422375C4AD00BAC439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A7412375C4AD00BAC439 /* AppDelegate.swift */; };
 		E9D2A7442375C4AD00BAC439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A7432375C4AD00BAC439 /* SceneDelegate.swift */; };
 		E9D2A7462375C4AD00BAC439 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A7452375C4AD00BAC439 /* LoginViewController.swift */; };
@@ -52,6 +53,7 @@
 		E95A23ED23764EAB00F7B9B6 /* IDisplay copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IDisplay copy.swift"; sourceTree = "<group>"; };
 		E95A23EF23764EBC00F7B9B6 /* Hydro copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hydro copy.swift"; sourceTree = "<group>"; };
 		E95A23F123764EC600F7B9B6 /* MinuteExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinuteExt.swift; sourceTree = "<group>"; };
+		E95A23F3237650CD00F7B9B6 /* BillDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		E9D2A73E2375C4AD00BAC439 /* C0765775_MidTerm_MAD3115F2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C0765775_MidTerm_MAD3115F2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D2A7412375C4AD00BAC439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9D2A7432375C4AD00BAC439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				E95A23DB23762E5100F7B9B6 /* DataUsed.swift */,
 				E95A23D923762D1800F7B9B6 /* ATErrorMessage.swift */,
 				E95A23D723762CA300F7B9B6 /* String+Validation.swift */,
+				E95A23F3237650CD00F7B9B6 /* BillDetailsTableViewCell.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E95A23E423764E7500F7B9B6 /* Bill copy.swift in Sources */,
+				E95A23F4237650CD00F7B9B6 /* BillDetailsTableViewCell.swift in Sources */,
 				E95A23D223760AC800F7B9B6 /* AddNewCustomersViewController.swift in Sources */,
 				E95A23CE237603FB00F7B9B6 /* ShowBillDetailsViewController.swift in Sources */,
 				E95A23F023764EBC00F7B9B6 /* Hydro copy.swift in Sources */,
