@@ -56,7 +56,7 @@ class CustomerListTableViewController: UIViewController {
       }
   }
 
-  extension CustomerListTableViewController:AddNewCustomerViewControllerDelegate{
+  extension CustomerListTableViewController:AddNewCustomerViewControllerDelegate {
       func didSelectSaveBtn(_ name: String) {
           self.customersArray.append(name)
           self.tableView.reloadData()
