@@ -11,23 +11,55 @@ import UIKit
 class CustomerListTableViewController: UIViewController {
     
     
-    
+      @IBOutlet weak var tableView: UITableView!
+      
+      var customersArray = ["Peter","John","Ryan","Parker"]
+      
+      override func viewDidLoad() {
+          super.viewDidLoad()
+          setupUI()
+      }
+      
+      func setupUI(){
+          tableView.tableFooterView = .init()
+      }
+      
+      @IBAction func logoutBtnTapped(_ sender: Any) {
+          self.navigationController?.popViewController(animated: true)
+      }
+      
+      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+          if let des = segue.destination as? AddNewCustomerViewController{
+              des.delegate = self
+          }
+      }
+      
+  }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+  extension CustomerListTableViewController:UITableViewDataSource{
+      func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+          return customersArray.count
+      }
+      
+      func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+          guard let cell = tableView.dequeueReusableCell(withIdentifier: "cellID") else{return .init()}
+          cell.textLabel?.text = customersArray[indexPath.row]
+          return cell
+      }
+  }
 
-        // Do any additional setup after loading the view.
-    }
-    
+  extension CustomerListTableViewController:UITableViewDelegate{
+      func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+          if let billDetailsVC = self.storyboard?.instantiateViewController(identifier: "ShowBillDetailsViewController") as? ShowBillDetailsViewController{
+              self.navigationController?.pushViewController(billDetailsVC, animated: true)
+          }
+      }
+  }
 
-    /*
-    // MARK: - Navigation
+  extension CustomerListTableViewController:AddNewCustomerViewControllerDelegate{
+      func didSelectSaveBtn(_ name: String) {
+          self.customersArray.append(name)
+          self.tableView.reloadData()
+      }
+  }
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}
