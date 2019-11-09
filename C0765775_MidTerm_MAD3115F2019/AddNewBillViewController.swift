@@ -65,6 +65,54 @@ class AddNewBillViewController: UIViewController {
             enterBillDateTextField.inputView = datePicker
         }
         
-        
+        @IBAction func saveBtnTapped(_ sender: Any) {
+                   let date = enterBillDateTextField.text ?? ""
+                   let id = enterBillIDTextField.text ?? ""
+                   let amount = Float(enterAmountTextField.text ?? "")
+                   var types = Bill.Types.self
+                   switch enterBillTypeTextField.text ?? "" {
+                   case billTypesArray[0]:
+                       billCopyObj?.billType = .Hydro
+                   case billTypesArray[1]:
+                       billCopyObj?.billType = .Internet
+                   case billTypesArray[2]:
+                       billCopyObj?.billType = .Mobile
+                   default:
+                       break
+                   }
+                   
+                 let billObj =  Bill(billId: id, billDate: date, billType: .Hydro)
+                   delegate?.didSelectSaveBtn(billObj)
+                   self.navigationController?.popViewController(animated: true)
+               }
+               
+               @objc func doneBtnAction(){
+                   view.endEditing(true)
+               }
+               
+               
+               @objc func cancelBtnAction(){
+                   view.endEditing(true)
+               }
+               
+           }
+
+           extension AddNewBillViewController:UIPickerViewDataSource{
+               func numberOfComponents(in pickerView: UIPickerView) -> Int {
+                   1
+               }
+               func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+                   return billTypesArray.count
+               }
+           }
+
+           extension AddNewBillViewController:UIPickerViewDelegate{
+               func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+                   return billTypesArray[row]
+               }
+               
+               func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+                   enterBillTypeTextField.text = billTypesArray[row]
+               }
        
     }
