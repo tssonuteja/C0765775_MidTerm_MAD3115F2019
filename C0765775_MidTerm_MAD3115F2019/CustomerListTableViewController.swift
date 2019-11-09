@@ -13,7 +13,7 @@ class CustomerListTableViewController: UIViewController {
     
       @IBOutlet weak var tableView: UITableView!
       
-      var customersArray = ["Peter","John","Ryan","Parker"]
+      var customersArray = ["SAI","SHASHANK","ROHITH","MARU"]
       
       override func viewDidLoad() {
           super.viewDidLoad()
