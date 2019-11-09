@@ -17,6 +17,14 @@
 		E95A23DC23762E5100F7B9B6 /* DataUsed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23DB23762E5100F7B9B6 /* DataUsed.swift */; };
 		E95A23DE23762F5300F7B9B6 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23DD23762F5300F7B9B6 /* Global.swift */; };
 		E95A23E023762FF200F7B9B6 /* ATButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23DF23762FF200F7B9B6 /* ATButton.swift */; };
+		E95A23E423764E7500F7B9B6 /* Bill copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23E323764E7500F7B9B6 /* Bill copy.swift */; };
+		E95A23E623764E8800F7B9B6 /* CurrencyExtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23E523764E8800F7B9B6 /* CurrencyExtn.swift */; };
+		E95A23E823764E9100F7B9B6 /* Customer copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23E723764E9100F7B9B6 /* Customer copy.swift */; };
+		E95A23EA23764E9900F7B9B6 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23E923764E9900F7B9B6 /* DateExtension.swift */; };
+		E95A23EC23764EA100F7B9B6 /* Internet copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23EB23764EA100F7B9B6 /* Internet copy.swift */; };
+		E95A23EE23764EAB00F7B9B6 /* IDisplay copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23ED23764EAB00F7B9B6 /* IDisplay copy.swift */; };
+		E95A23F023764EBC00F7B9B6 /* Hydro copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23EF23764EBC00F7B9B6 /* Hydro copy.swift */; };
+		E95A23F223764EC600F7B9B6 /* MinuteExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A23F123764EC600F7B9B6 /* MinuteExt.swift */; };
 		E9D2A7422375C4AD00BAC439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A7412375C4AD00BAC439 /* AppDelegate.swift */; };
 		E9D2A7442375C4AD00BAC439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A7432375C4AD00BAC439 /* SceneDelegate.swift */; };
 		E9D2A7462375C4AD00BAC439 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A7452375C4AD00BAC439 /* LoginViewController.swift */; };
@@ -36,6 +44,14 @@
 		E95A23DB23762E5100F7B9B6 /* DataUsed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataUsed.swift; sourceTree = "<group>"; };
 		E95A23DD23762F5300F7B9B6 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		E95A23DF23762FF200F7B9B6 /* ATButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATButton.swift; sourceTree = "<group>"; };
+		E95A23E323764E7500F7B9B6 /* Bill copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bill copy.swift"; sourceTree = "<group>"; };
+		E95A23E523764E8800F7B9B6 /* CurrencyExtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyExtn.swift; sourceTree = "<group>"; };
+		E95A23E723764E9100F7B9B6 /* Customer copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Customer copy.swift"; sourceTree = "<group>"; };
+		E95A23E923764E9900F7B9B6 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		E95A23EB23764EA100F7B9B6 /* Internet copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Internet copy.swift"; sourceTree = "<group>"; };
+		E95A23ED23764EAB00F7B9B6 /* IDisplay copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IDisplay copy.swift"; sourceTree = "<group>"; };
+		E95A23EF23764EBC00F7B9B6 /* Hydro copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hydro copy.swift"; sourceTree = "<group>"; };
+		E95A23F123764EC600F7B9B6 /* MinuteExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinuteExt.swift; sourceTree = "<group>"; };
 		E9D2A73E2375C4AD00BAC439 /* C0765775_MidTerm_MAD3115F2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C0765775_MidTerm_MAD3115F2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D2A7412375C4AD00BAC439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9D2A7432375C4AD00BAC439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +84,14 @@
 		E95A23D623762C7E00F7B9B6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E95A23F123764EC600F7B9B6 /* MinuteExt.swift */,
+				E95A23EF23764EBC00F7B9B6 /* Hydro copy.swift */,
+				E95A23ED23764EAB00F7B9B6 /* IDisplay copy.swift */,
+				E95A23EB23764EA100F7B9B6 /* Internet copy.swift */,
+				E95A23E923764E9900F7B9B6 /* DateExtension.swift */,
+				E95A23E723764E9100F7B9B6 /* Customer copy.swift */,
+				E95A23E523764E8800F7B9B6 /* CurrencyExtn.swift */,
+				E95A23E323764E7500F7B9B6 /* Bill copy.swift */,
 				E95A23DF23762FF200F7B9B6 /* ATButton.swift */,
 				E95A23DD23762F5300F7B9B6 /* Global.swift */,
 				E95A23DB23762E5100F7B9B6 /* DataUsed.swift */,
@@ -185,13 +209,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95A23E423764E7500F7B9B6 /* Bill copy.swift in Sources */,
 				E95A23D223760AC800F7B9B6 /* AddNewCustomersViewController.swift in Sources */,
 				E95A23CE237603FB00F7B9B6 /* ShowBillDetailsViewController.swift in Sources */,
+				E95A23F023764EBC00F7B9B6 /* Hydro copy.swift in Sources */,
 				E9D2A7462375C4AD00BAC439 /* LoginViewController.swift in Sources */,
+				E95A23F223764EC600F7B9B6 /* MinuteExt.swift in Sources */,
 				E95A23CC2375EA4C00F7B9B6 /* CustomerListTableViewController.swift in Sources */,
 				E95A23DC23762E5100F7B9B6 /* DataUsed.swift in Sources */,
 				E95A23DA23762D1800F7B9B6 /* ATErrorMessage.swift in Sources */,
+				E95A23E623764E8800F7B9B6 /* CurrencyExtn.swift in Sources */,
 				E95A23E023762FF200F7B9B6 /* ATButton.swift in Sources */,
+				E95A23EA23764E9900F7B9B6 /* DateExtension.swift in Sources */,
+				E95A23EE23764EAB00F7B9B6 /* IDisplay copy.swift in Sources */,
+				E95A23EC23764EA100F7B9B6 /* Internet copy.swift in Sources */,
+				E95A23E823764E9100F7B9B6 /* Customer copy.swift in Sources */,
 				E95A23DE23762F5300F7B9B6 /* Global.swift in Sources */,
 				E9D2A7422375C4AD00BAC439 /* AppDelegate.swift in Sources */,
 				E95A23D02376072300F7B9B6 /* AddNewBillViewController.swift in Sources */,
