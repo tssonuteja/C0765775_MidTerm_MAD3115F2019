@@ -1,9 +1,9 @@
 //
-//  ATErrorMessage.swift
-//  HungrayHub
+//  DataUsed.swift
+//  sample
 //
-//  Created by Tejinder Paul Singh  on 25/04/18.
-//  Copyright © 2018 HungryHub. All rights reserved.
+//  Created by Sai Teja on 2019-11-08.
+//  Copyright © 2019 MacStudent. All rights reserved.
 //
 
 import Foundation

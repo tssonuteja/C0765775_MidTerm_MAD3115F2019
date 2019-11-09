@@ -2,8 +2,10 @@
 //  Global.swift
 //  SignupValidations
 //
-//  Created by vamsi on 02/08/19.
-//  Copyright © 2019 TejinderPaul. All rights reserved.
+//  Created by Sai Teja on 2019-11-08.
+//  Copyright © 2019 MacStudent. All rights reserved.
+//
+
 //
 
 import Foundation
