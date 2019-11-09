@@ -8,6 +8,11 @@
 
 import UIKit
 
+protocol AddNewBillViewControllerDelegate:NSObject {
+    func didSelectSaveBtn(_ bill:Bill)
+}
+
+
 class AddNewBillViewController: UIViewController {
 
     override func viewDidLoad() {
