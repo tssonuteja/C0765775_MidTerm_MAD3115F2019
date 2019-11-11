@@ -29,7 +29,8 @@ class LoginViewController: UIViewController {
             if let billDetailsVC = self.storyboard?.instantiateViewController(identifier: "CustomerListTableViewController") as? CustomerListTableViewController{
                 self.navigationController?.pushViewController(billDetailsVC, animated: true)
             }
-        } else {
+        }
+        else {
             
         }
         }
